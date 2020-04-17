@@ -7,6 +7,8 @@
       
       <div class="container">
 
+        <div class="logo"><img src="~@/assets/img/logo.png" alt=""></div>
+
         <div class="head-title">
           <h1>Clear, smart, attractive design</h1>
           <h2>for your app, logo, website</h2>
