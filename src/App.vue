@@ -14,6 +14,13 @@
           <h2>for your app, logo, website</h2>
         </div>
 
+        <div class="head-control">
+          <button class="btn">read more</button>
+
+          <i class="icon-down-open-big"></i>
+
+        </div>
+
       </div>
 
     </section>

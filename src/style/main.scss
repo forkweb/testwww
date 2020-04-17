@@ -1,3 +1,4 @@
+@import "~@/assets/fonts/fontello/css/fontello.css";
 @import "~@/style/normalize.css";
 
 @font-face {
@@ -15,6 +16,17 @@
   src: url('~@/assets/fonts/lato/Lato-Thin.ttf');
  }
 
+
+ :root {
+  --color-white: #ffff;
+  --color-black: #000000;
+  --color-theme: #ada074;
+  --color-grey: #a4a4a4;
+  --color-gray-more: #6c6c6c;
+
+  --transition-normal: 0.3s;
+}
+
  
 #app {
   font-family: LatoR, Helvetica, Arial, sans-serif;
@@ -22,11 +34,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+*::selection {
+  background-color: rgba(78, 78, 78, 0.19);
+  color: rgb(54, 158, 199);
+ }
+
 .container {
   width: 1120px;
   margin: 0 auto;
   position: relative;
   text-align: center;
+  & .btn {
+    background-color: transparent;
+    color: var(--color-black);
+    border: 1.5px solid var(--color-black);
+    padding: 13px 48px;
+    text-transform: uppercase;
+    transition-duration: var(--transition-normal);
+    cursor: pointer;
+  }
 }
 
 .header {
@@ -39,8 +65,20 @@
       padding-top: calc(100%/7);
     }
     & .head-title {
+      & ::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 105px;
+        background-color: var(--color-white);
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+        bottom: -50px;
+      }
       padding-top: calc(100%/7.3);
-      color: rgb(255, 255, 255);
+      color: var(--color-white);
+      position: relative;
       & h1 {
         text-transform: uppercase;
         font-size: 2.1em;
@@ -53,5 +91,29 @@
         letter-spacing: 5px;
       }
     }
-    
+    & .head-control {
+      position: relative;
+      margin-top: calc(100%/4);
+      & .btn {
+        display: flex;
+        margin: 0 auto;
+        color: var(--color-white);
+        border: 1.5px solid var(--color-white);
+        &:hover {
+          background-color: var(--color-white);
+          color: var(--color-black);
+        }
+      }
+      & .icon-down-open-big {
+        font-size: 2em;
+        cursor: pointer;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        transform: translate(-50%, -50%);
+        width: 44px;
+        top: 90px;
+        color: rgb(255, 255, 255);
+      }
+    }
 }
