@@ -44,6 +44,9 @@
   margin: 0 auto;
   position: relative;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   & .btn {
     background-color: transparent;
     color: var(--color-black);
@@ -116,4 +119,14 @@
         color: rgb(255, 255, 255);
       }
     }
+}
+
+
+
+.porfolio {
+  height: 900px;
+}
+
+.partners {
+  height: 900px;
 }
