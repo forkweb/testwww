@@ -33,7 +33,10 @@
         <div class="container">
 
           <ul class="nav">
-            <li onclick="animateScrollTo(document.querySelector('.ElementDemo-element'))">CLICK</li>
+            <li onclick="animateScrollTo(document.querySelector('.ElementDemo-element'))">Home</li>
+            <li onclick="animateScrollTo(document.querySelector('.ElementDemo-element'))">About us</li>
+            <li onclick="animateScrollTo(document.querySelector('.ElementDemo-element'))">Portfolio</li>
+            <li onclick="animateScrollTo(document.querySelector('.ElementDemo-element'))">Contact</li>
           </ul>
 
         </div>
@@ -45,6 +48,12 @@
         <div class="title">
           about
         </div>
+
+        <p class="about-text">
+          We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor. <br>
+          In our design process, we make sure to stay one step ahead of the latest trends, <br>
+          never forgetting to abide by key web standards.
+        </p>
         
       </div>
 
@@ -69,6 +78,7 @@
 <script>
 import Portfolio from './components/Portfolio.vue'
 import animateScrollTo from 'animated-scroll-to';
+import jQuery from "jquery";
 
 
 export default {
@@ -92,6 +102,19 @@ export default {
         }
       });
     },
+    fixedMenu(){
+      (function($) {
+        $(window).bind('scroll', function() {
+        var navHeight = $( window ).height() - 70;
+          if ($(window).scrollTop() > navHeight) {
+            $('.nav').addClass('fixed');
+          }
+          else {
+            $('.nav').removeClass('fixed');
+          }
+      });
+      })(jQuery);
+    },
     animate_text() {
       console.log("asdasdasdasda");
     },
@@ -102,6 +125,7 @@ export default {
   mounted() {
     this.animate_text();
     this.animateScrollTo();
+    this.fixedMenu();
   },
 }
 </script>
