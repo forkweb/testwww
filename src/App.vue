@@ -45,7 +45,7 @@
 
       <div class="container">
 
-        <div class="title">
+        <div class="title-container">
           about
         </div>
 
@@ -54,6 +54,52 @@
           In our design process, we make sure to stay one step ahead of the latest trends, <br>
           never forgetting to abide by key web standards.
         </p>
+
+        <div class="about-tehnology">
+
+          <div class="about-tehnology__item">
+            <div class="about-tehnology__item-image">
+            <img src="~@/assets/img/web.png" alt="">
+            </div>
+            <div class="about-tehnology__item-info">
+              <div class="about-tehnology__item-title">WEB</div>
+              <p>
+                We tend to deliver unique and 
+                functional design, through 
+                innovation and creativity.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-tehnology__item">
+            <div class="about-tehnology__item-image">
+            <img src="~@/assets/img/app.png" alt="">
+            </div>
+            <div class="about-tehnology__item-info">
+              <div class="about-tehnology__item-title">iOS AND ANDROID</div>
+              <p>
+                We seek to bring new businesses and 
+                customers closer together through valuable 
+                insights and proper targeting.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-tehnology__item">
+            <div class="about-tehnology__item-image">
+            <img src="~@/assets/img/marketing.png" alt="">
+            </div>
+            <div class="about-tehnology__item-info">
+              <div class="about-tehnology__item-title">MARKETING</div>
+              <p>
+                We’ll help you establish the right goals 
+                and build the right paths. Success depends 
+                on setting the right intention.
+              </p>
+            </div>
+          </div>
+
+        </div>
         
       </div>
 
@@ -86,16 +132,21 @@ export default {
   components: {
     Portfolio
   },
+  watch: {
+    animateScrollTo() {
+      this.animateScrollTo();
+    }
+  },
   methods: {
     animateScrollTo(){
-      animateScrollTo(500).then(hasScrolledToPosition => {
+      animateScrollTo(0).then(hasScrolledToPosition => {
         // scroll animation is finished
 
         // "hasScrolledToPosition" indicates if page/element
         // was scrolled to a desired position
         // or if animation got interrupted
         if (hasScrolledToPosition) {
-          // page is scrolled to a desired position
+          // page is scrolled to a desired position 
         } else {
           // scroll animation was interrupted by user
           // or by another call of "animateScrollTo"
@@ -105,7 +156,7 @@ export default {
     fixedMenu(){
       (function($) {
         $(window).bind('scroll', function() {
-        var navHeight = $( window ).height() - 70;
+        var navHeight = $( window ).height() - 30;
           if ($(window).scrollTop() > navHeight) {
             $('.nav').addClass('fixed');
           }
