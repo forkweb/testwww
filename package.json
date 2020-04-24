@@ -11,6 +11,8 @@
     "animated-scroll-to": "^2.0.5",
     "core-js": "^3.6.4",
     "jquery": "^3.5.0",
+    "magnific-popup": "^1.1.0",
+    "mixitup": "^3.3.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {

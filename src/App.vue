@@ -113,7 +113,9 @@
 
   <section class="partners ElementDemo-element">
     <div class="container">
-      asdasd
+      <div class="title-container">
+        dfsddfsdfsdfsd
+      </div>
     </div>
   </section>
 
