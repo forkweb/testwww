@@ -352,34 +352,6 @@ img.mfp-img {
 
 
 
-
-    
-.popup_content {
-  background-color: rgba(251, 251, 251, 0);
-  border: 2px solid white;
-  color: white;
-  cursor: pointer;
-  font-family: open sans;
-  left: 0;
-  margin-bottom: 0;
-  margin-left: 53px;
-  margin-top: 74px;
-  opacity: 0;
-  padding: 8px 30px;
-  position: absolute;
-  text-transform: uppercase;
-  top: 0;
-  transition-duration: 0.3s;
-}
-
-.popup_content:hover {
-  background-color: white;
-  color: black;
-}
-
-
-
-
 .mfp-ready .mfp-figure {
   opacity: 0;
 }
@@ -455,17 +427,3 @@ img.mfp-img {
   }
 }
 
-.coub_work {
-  height: 190px;
-  margin: 14px;
-  position: relative;
-  width: 265px;
-  overflow: hidden;
-}
-
-.coub_work img {
-  vertical-align: sub;
-  transition-duration: 0.3s;
-  max-width: 265px;
-  min-height: 190px;
-}

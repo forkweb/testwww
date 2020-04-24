@@ -169,7 +169,7 @@ export default {
       })(jQuery);
     },
     animate_text() {
-      console.log("asdasdasdasda");
+      console.log("test");
     },
   },
   create(){

@@ -1,24 +1,52 @@
 <template>
-  <section class="porfolio">
+  <section class="portfolio">
     <div class="container">
       <div class="title-container">PORTFOLIO</div>
 
       <div class="portfolio-content">
 
         <div class="portfolio-content__control">
-          <button type="button" data-filter="all">All</button>
-          <button type="button" data-filter=".category-a">Category A</button>
-          <button type="button" data-filter=".category-b">Category B</button>
-          <button type="button" data-filter=".category-c">Category C</button>
+          <button class="portfolio-content__control-btn" type="button" data-filter="all">All</button>
+          <button class="portfolio-content__control-btn" type="button" data-filter=".category-a">Web</button>
+          <button class="portfolio-content__control-btn" type="button" data-filter=".category-b">Apps</button>
+          <button class="portfolio-content__control-btn" type="button" data-filter=".category-c">Other</button>
         </div>
 
         <div class="portfolio-content__items">
-          <div class="blabla coub_work mix category-a" data-order="1"><a class="image-popup-zoom" title="Это описание изображения" href="https://www.w3schools.com/css/trolltunga.jpg"><img src="https://www.w3schools.com/css/trolltunga.jpg" alt=""></a>
+
+          <div class="blabla coub_work mix category-a" data-order="1"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car.jpg"><img src="~@/assets/img/car.jpg" alt=""></a>
             <button class="popup_content">Подробнее</button>							
           </div>
-          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="https://www.w3schools.com/css/trolltunga.jpg"><img src="https://www.w3schools.com/css/trolltunga.jpg" alt=""></a>
+
+          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car2.jpg"><img src="~@/assets/img/car2.jpg" alt=""></a>
             <button class="popup_content">Подробнее</button>							
           </div>
+
+          <div class="blabla coub_work mix category-c" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car3.jpg"><img src="~@/assets/img/car3.jpg" alt=""></a>
+            <button class="popup_content">Подробнее</button>							
+          </div>
+
+          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car2.jpg"><img src="~@/assets/img/car2.jpg" alt=""></a>
+            <button class="popup_content">Подробнее</button>							
+          </div>
+
+          <div class="blabla coub_work mix category-a" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car.jpg"><img src="~@/assets/img/car.jpg" alt=""></a>
+            <button class="popup_content">Подробнее</button>							
+          </div>
+
+          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car3.jpg"><img src="~@/assets/img/car3.jpg" alt=""></a>
+            <button class="popup_content">Подробнее</button>							
+          </div>
+
+          <div class="blabla coub_work mix category-c" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car.jpg"><img src="~@/assets/img/car.jpg" alt=""></a>
+            <button class="popup_content">Подробнее</button>							
+          </div>
+
+
+          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car2.jpg"><img src="~@/assets/img/car2.jpg" alt=""></a>
+            <button class="popup_content">Подробнее</button>							
+          </div>
+
         </div>
 
       </div>
@@ -70,23 +98,18 @@ export default {
           }
         });
 
-
-          $(".coub_work").hover(function(){
-            //мышь наведена
-            $(this).children(".popup_content").css("opacity","1");
-            $(this).children(".image-popup-zoom").children("img").css("opacity","0.4");
-            $(this).css("background-color","black");
-
-          },function(){
-            //мышь убрана
-            $(this).children(".popup_content").css("opacity","0");
-            $(this).children(".image-popup-zoom").children("img").css("opacity","")
-            $(this).css("background-color","");
-
-          });
+        $(".coub_work").hover(function(){
+          $(this).children(".popup_content").css("opacity","1");
+          $(this).children(".image-popup-zoom").children("img").css("opacity","0.4");
+          $(this).css("background-color","black");
+        },function(){
+          $(this).children(".popup_content").css("opacity","0");
+          $(this).children(".image-popup-zoom").children("img").css("opacity","")
+          $(this).css("background-color","");
+        });
 
         $(".popup_content").on('click',function(){
-            $(this).parent().children(".image-popup-zoom").children("img").trigger("click");
+          $(this).parent().children(".image-popup-zoom").children("img").trigger("click");
         });
 
       })($);
