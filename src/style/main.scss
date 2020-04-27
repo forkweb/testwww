@@ -32,6 +32,7 @@
   --color-gray-line: #dedede;
   --color-gray-text: #868585;
   --color-gray-bg: #ececec;
+  --color-footer: #3c3c3c;
 
   --transition-normal: 0.3s;
 }
@@ -368,11 +369,10 @@
         }
       }
   }
-
 }
 
 
 
 .footer {
-  height: 300px;
+  background-color: var(--color-footer);
 }

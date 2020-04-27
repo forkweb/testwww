@@ -182,7 +182,18 @@
     <div class="container">
 
       <div class="footer-content">
+        <div class="logo"><img src="~@/assets/img/logo.png" alt=""></div>
         
+        <ul class="footer-content__link">
+          <li><a href="/">Home</a></li>
+          <li><a href="https://vk.com/fork_web" target="_blank">Vkontakte</a></li>
+          <li><a href="https://www.instagram.com/fork_web/" target="_blank">Instagram</a></li>
+          <li><a href="https://codepen.io/" target="_blank">Codepen</a></li>
+        </ul>
+        <div class="footer-content-copyright">
+          © 2020. All Rights Reserved 
+        </div>
+
       </div>
 
     </div>
