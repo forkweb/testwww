@@ -273,6 +273,106 @@
 
 
 .contact {
-  height: 500px;
+  &-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 140px;
+    &__form {
+      position: relative;
+      & .el_input {
+        display: flex;
+        flex-direction: row;
+        & input {
+          border: none;
+          border-bottom: 2px solid rgb(0, 0, 0);
+          height: 50px;
+          font-family: LatoBold;
+          font-size: 1em;
+          text-transform: uppercase;
+          color: var(--color-black);
+          &:first-child {
+            margin-right: 35px;
+          }
+          &::placeholder {
+            font-family: LatoBold;
+            font-size: 1em;
+            text-transform: uppercase;
+            color: var(--color-black);
+          }
+          &:focus {
+            outline: none;
+          }
+          &:active {
+            outline: none;
+          }
+        }
+      }
+        & textarea {
+          width: 100%;
+          display: block;
+          color: var(--color-black);
+          overflow: hidden;
+          line-height: 1.3;
+          background-size: auto;
+          background-color: transparent;
+          border: none;
+          resize: none;
+          border-bottom: 2px solid var(--color-black);
+          padding-right: 0;
+          margin-top: 115px;
+          font-family: LatoBold;
+          font-size: 1em;
+          text-transform: uppercase;
+          color: var(--color-black);
+          &:focus {
+            outline: none;
+          }
+          &::placeholder {
+            font-family: LatoBold;
+            font-size: 1em;
+            text-transform: uppercase;
+            color: var(--color-black);
+          }
+      }
+    }
+    &__info {
+      width: 240px;
+      & p {
+        text-align: left;
+        padding-bottom: 20px;
+      }
+    }
+    &__icon {
+      display: flex;
+      justify-content: left;
+      margin: 0;
+      & a {
+        color: var(--color-black);
+      }
+    }
+    &__send {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 100px;
+        & .btn {
+          padding: 0 !important;
+          text-align: right !important;
+          border: none !important;
+          font-family: LatoBold;
+          &:focus {
+            outline: none;
+          }
+          &:hover {
+            color: var(--color-theme);
+          }
+        }
+      }
+  }
+
 }
 
+
+
+.footer {
+  height: 300px;
+}

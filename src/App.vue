@@ -137,15 +137,52 @@
         </div>
 
       <div class="contact-content">
-        <div class="contact-content-form">
-          
-        </div>
-        <div class="contact-content-info">
+        <div class="contact-content__form">
+
+          <div class="el_input">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+          </div>
+          <textarea placeholder="Message"></textarea>
+
+          <div class="contact-content__send">
+            <button class="btn">Send</button>
+          </div>
 
         </div>
-        <div class="contact-content-send">
-          <button class="btn">Send</button>
+        <div class="contact-content__info">
+          <p>
+            Have an idea for a project? Just looking to 
+            explore and see the possibilities?
+            I'm here to help.
+          </p>
+          <p><strong>Postma Elena</strong></p>
+          <div class="contact-content__icon">
+            <a href="https://vk.com/fork_web" target="_blank"><i class="icon-vkontakte"></i></a>
+            <a href="https://www.instagram.com/fork_web/" target="_blank"><i class="icon-instagram-filled"></i></a>
+          </div>
+          <p>e-mail: <strong>postma.elena@gmail.com</strong></p>
         </div>
+
+      </div>
+
+      <div class="contact-content">
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+    <section class="footer ElementDemo-element">
+    <div class="container">
+
+      <div class="footer-content">
+        
       </div>
 
     </div>
@@ -211,6 +248,17 @@ export default {
     this.animate_text();
     this.animateScrollTo();
     this.fixedMenu();
+
+    var textarea = document.querySelector('textarea');
+    var initialHeight = 5;
+    var resize = function resize() {
+      textarea.style.height = initialHeight + 'px';
+      var height = textarea.scrollHeight;
+      textarea.style.height = height + initialHeight + 'px';
+    };
+    resize();
+    textarea.addEventListener('input', resize);
+    
   },
 }
 </script>
