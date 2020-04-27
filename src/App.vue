@@ -113,9 +113,41 @@
 
   <section class="partners ElementDemo-element">
     <div class="container">
-      <div class="title-container">
-        dfsddfsdfsdfsd
+      <div class="title-mini">
+        Our partners
       </div>
+
+      <div class="partners-content">
+        <img src="~@/assets/img/partner1.png" alt="">
+        <img src="~@/assets/img/partner2.png" alt="">
+        <img src="~@/assets/img/partner3.png" alt="">
+        <img src="~@/assets/img/partner4.png" alt="">   
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+    <section class="contact ElementDemo-element">
+    <div class="container">
+        <div class="title-container">
+          Contact
+        </div>
+
+      <div class="contact-content">
+        <div class="contact-content-form">
+          
+        </div>
+        <div class="contact-content-info">
+
+        </div>
+        <div class="contact-content-send">
+          <button class="btn">Send</button>
+        </div>
+      </div>
+
     </div>
   </section>
 

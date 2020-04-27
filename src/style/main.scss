@@ -31,6 +31,7 @@
   --color-gray-more: #6c6c6c;
   --color-gray-line: #dedede;
   --color-gray-text: #868585;
+  --color-gray-bg: #ececec;
 
   --transition-normal: 0.3s;
 }
@@ -74,7 +75,7 @@
     text-transform: uppercase;
     font-family: LatoBold;
     font-size: 2em;
-    padding-top: 40px;
+    padding-top: 70px;
     letter-spacing: 6px;
     &::before {
       content: "";
@@ -87,6 +88,12 @@
       right: 50%;
       transform: translate(-50%, -50%);
     }
+  }
+  & .title-mini {
+    color: var(--color-white);
+    padding-top: 90px;
+    font-size: 2.1em;
+    font-family: LatoT;
   }
 }
 
@@ -247,13 +254,25 @@
 }
 
 
-
-
-.porfolio {
-  height: 900px;
+.partners {
+  background-image: url(~@/assets/img/bg_partners.jpg);
+  width: 100%;
+  height: 385px;
+  background-size: cover;
+  background-position: center 100%;
+  &-content {
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & img {
+      margin: 0 55px;
+    }
+  }
 }
 
-.partners {
-  height: 900px;
+
+.contact {
+  height: 500px;
 }
 

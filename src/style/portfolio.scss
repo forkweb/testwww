@@ -1,5 +1,6 @@
 .portfolio {
-
+  background-color: var(--color-gray-bg);
+  padding-bottom: 70px;
   &-content {
     margin-top: 80px;
     &__control {
@@ -63,6 +64,14 @@
           background-color: var(--color-white);
           color: var(--color-black);
         }
+      }
+    }
+    .btn-more {
+      margin-top: 40px;
+      &:hover {
+        color: var(--color-white);
+        background-color: var(--color-theme);
+        border: 1.5px solid var(--color-theme);;
       }
     }
   }

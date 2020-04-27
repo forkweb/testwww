@@ -14,40 +14,42 @@
 
         <div class="portfolio-content__items">
 
-          <div class="blabla coub_work mix category-a" data-order="1"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car.jpg"><img src="~@/assets/img/car.jpg" alt=""></a>
+          <div class="blabla coub_work mix category-a" data-order="1"><a class="image-popup-zoom" title="Это описание изображения" href="https://sun9-41.userapi.com/c813024/v813024504/99102/R6lVeobUX3I.jpg"><img src="https://sun9-41.userapi.com/c813024/v813024504/99102/R6lVeobUX3I.jpg" alt=""></a>
             <button class="popup_content">Подробнее</button>							
           </div>
 
-          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car2.jpg"><img src="~@/assets/img/car2.jpg" alt=""></a>
+          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="https://sun9-54.userapi.com/c857428/v857428169/1bcbbb/-lnnuObYl4E.jpg"><img src="https://sun9-54.userapi.com/c857428/v857428169/1bcbbb/-lnnuObYl4E.jpg" alt=""></a>
             <button class="popup_content">Подробнее</button>							
           </div>
 
-          <div class="blabla coub_work mix category-c" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car3.jpg"><img src="~@/assets/img/car3.jpg" alt=""></a>
+          <div class="blabla coub_work mix category-c" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="https://sun7-8.userapi.com/asKlovUF13Iyjl4q38CcykrbFy-l2tixh5u41Q/k_MDfBVJ4Gk.jpg"><img src="https://sun7-8.userapi.com/asKlovUF13Iyjl4q38CcykrbFy-l2tixh5u41Q/k_MDfBVJ4Gk.jpg" alt=""></a>
             <button class="popup_content">Подробнее</button>							
           </div>
 
-          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car2.jpg"><img src="~@/assets/img/car2.jpg" alt=""></a>
+          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="https://sun9-54.userapi.com/c857428/v857428169/1bcbbb/-lnnuObYl4E.jpg"><img src="https://sun9-54.userapi.com/c857428/v857428169/1bcbbb/-lnnuObYl4E.jpg" alt=""></a>
             <button class="popup_content">Подробнее</button>							
           </div>
 
-          <div class="blabla coub_work mix category-a" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car.jpg"><img src="~@/assets/img/car.jpg" alt=""></a>
+          <div class="blabla coub_work mix category-a" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="https://sun9-41.userapi.com/c813024/v813024504/99102/R6lVeobUX3I.jpg"><img src="https://sun9-41.userapi.com/c813024/v813024504/99102/R6lVeobUX3I.jpg" alt=""></a>
             <button class="popup_content">Подробнее</button>							
           </div>
 
-          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car3.jpg"><img src="~@/assets/img/car3.jpg" alt=""></a>
+          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="https://sun7-8.userapi.com/asKlovUF13Iyjl4q38CcykrbFy-l2tixh5u41Q/k_MDfBVJ4Gk.jpg"><img src="https://sun7-8.userapi.com/asKlovUF13Iyjl4q38CcykrbFy-l2tixh5u41Q/k_MDfBVJ4Gk.jpg" alt=""></a>
             <button class="popup_content">Подробнее</button>							
           </div>
 
-          <div class="blabla coub_work mix category-c" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car.jpg"><img src="~@/assets/img/car.jpg" alt=""></a>
+          <div class="blabla coub_work mix category-c" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="https://sun9-41.userapi.com/c813024/v813024504/99102/R6lVeobUX3I.jpg"><img src="https://sun9-41.userapi.com/c813024/v813024504/99102/R6lVeobUX3I.jpg" alt=""></a>
             <button class="popup_content">Подробнее</button>							
           </div>
 
 
-          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="~@/assets/img/car2.jpg"><img src="~@/assets/img/car2.jpg" alt=""></a>
+          <div class="blabla coub_work mix category-b" data-order="2"><a class="image-popup-zoom" title="Это описание изображения" href="https://sun9-54.userapi.com/c857428/v857428169/1bcbbb/-lnnuObYl4E.jpg"><img src="https://sun9-54.userapi.com/c857428/v857428169/1bcbbb/-lnnuObYl4E.jpg" alt=""></a>
             <button class="popup_content">Подробнее</button>							
           </div>
 
         </div>
+
+        <button class="btn btn-more">Read more</button>
 
       </div>
 
