@@ -375,4 +375,26 @@
 
 .footer {
   background-color: var(--color-footer);
+  padding: 40px 0;
+  &-content {
+    &__link {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      justify-content: center;
+      margin: 35px 0;
+      & li {
+        margin: 0 15px;
+        font-size: 0.9em;
+      }
+      & a {
+        color: var(--color-grey);
+        text-decoration: none;
+      }
+    }
+    &-copyright {
+      color: var(--color-gray-more);
+      font-size: 0.9em;
+    }
+  }
 }

@@ -182,7 +182,7 @@
     <div class="container">
 
       <div class="footer-content">
-        <div class="logo"><img src="~@/assets/img/logo.png" alt=""></div>
+        <div class="logo"><img src="~@/assets/img/logo_footer.png" alt=""></div>
         
         <ul class="footer-content__link">
           <li><a href="/">Home</a></li>
