@@ -3,7 +3,7 @@
 
 
 
-    <section class="header">
+    <section class="header el1">
       
       <div class="container">
 
@@ -15,9 +15,9 @@
         </div>
 
         <div class="head-control">
-          <button class="btn">read more</button>
+          <button class="btn" onclick="animateScrollTo(document.querySelector('.el2'))">read more</button>
 
-          <i class="icon-down-open-big"></i>
+          <i class="icon-down-open-big" onclick="animateScrollTo(document.querySelector('.el2'))"></i>
 
         </div>
 
@@ -33,17 +33,17 @@
         <div class="container">
 
           <ul class="nav">
-            <li onclick="animateScrollTo(document.querySelector('.ElementDemo-element'))">Home</li>
-            <li onclick="animateScrollTo(document.querySelector('.ElementDemo-element'))">About us</li>
-            <li onclick="animateScrollTo(document.querySelector('.ElementDemo-element'))">Portfolio</li>
-            <li onclick="animateScrollTo(document.querySelector('.ElementDemo-element'))">Contact</li>
+            <li onclick="animateScrollTo(document.querySelector('.el1'))">Home</li>
+            <li onclick="animateScrollTo(document.querySelector('.el2'))">About us</li>
+            <li onclick="animateScrollTo(document.querySelector('.el3'))">Portfolio</li>
+            <li onclick="animateScrollTo(document.querySelector('.el4'))">Contact</li>
           </ul>
 
         </div>
 
       </div>
 
-      <div class="container">
+      <div class="container el2">
 
         <div class="title-container">
           about
@@ -130,7 +130,7 @@
 
 
 
-    <section class="contact ElementDemo-element">
+    <section class="contact el4">
     <div class="container">
         <div class="title-container">
           Contact
