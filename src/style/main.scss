@@ -164,6 +164,7 @@
 
 
 .about {
+  padding-bottom: 100px;
   .menu {
     width: 100%;
     border-bottom: 1px solid var(--color-gray-line);
@@ -397,4 +398,17 @@
       font-size: 0.9em;
     }
   }
+}
+
+
+@media screen and (max-width: 1500px) {
+  .header .head-control {
+    margin-top: 14%;
+  }
+  .header .logo {
+    padding-top: 5%;
+  }
+  .header .head-title {
+    padding-top: 5%;
+  } 
 }
